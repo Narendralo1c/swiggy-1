@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container .box-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.box-1 .text-section {
+    width: 50%;
+    height: 490px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.text-section nav {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text-section ul {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+}
+
+.text-section li {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-section li button {
+    border: none;
+    width: 100px;
+    color: white;
+    background-color: #000000;
+    border-radius: 5px;
+    height: 25px;
+}
+
+
+.text-section img {
+    width: 60%;
+}
+
+.image-1 {
+    width: 50%;
+    height: auto;
+
+}
+
+.image-1 img {
+    width: 100%;
+}
+
+
+.order-food {
+    width: 80%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.order-food h3 {
+    padding-bottom: 30px;
+}
+
+.order-food ul {
+    width: 100%;
+}
+
+.order-food input {
+    width: 300px;
+    height: 40px;
+    border: 2px solid orange;
+    padding-left: 20px;
+}
+
+.order-food button {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: 900;
+
+}
+
+.order-food p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.box-2 {
+    background-color: #2B1E16;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.logo-1 {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-2 {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-3 {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-2 h1 {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.box-3 {
+    height: auto;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.box-3 .text {
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.box-3 h1 {
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+}
+
+
+.box-3 .text .logo {
+    display: flex;
+
+}
+
+
+
+
+.box-3 .text .logo img {
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+
+
+}
+
+.mobile {
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    height: auto;
+}
+
+.mobile-1 {
+    width: 50%;
+    height: auto;
+    display: flex;
+
+}
+
+.mobile-1 img {
+    width: 100%;
+    height: 300px;
+
+}
+
+.mobile-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-2 img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 99px;
+}
+
+
+
+
+
+.box-4 {
+    background-color: #000000;
+    height: auto;
+    width: 100%;
+    display: flex;
+    line-height: 30px;
+    color: white;
+
+}
+
+.box-4 .company {
+
+    height: 300px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.box-4 .contect {
+
+    height: 300px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.box-4 .legal {
+
+    height: 300px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.box-4 .ABC {
+
+    height: 300px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.box-4 ul {
+    list-style: none;
+}
+
+.city {
+    background-color: rgb(8, 8, 8);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    color: white;
+
+
+}
+
+
+.city .city-1 {
+
+    width: 25%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.city .city-2 {
+
+    width: 25%;
+    height: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.city .city-3 {
+
+    width: 25%;
+    height: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.city .city-4 {
+
+    width: 25%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.city ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+
+
+
+
+
+.box-5 {
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.box-5 .swiggy-logo img {
+    height: 50px;
+}
+
+.box-5 .year {
+    color: white;
+}
+
+.box-5 .icon ul {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+
+@media (max-width:768px) {
+    .container {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .box-1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .text-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+
+
+    }
+
+    .image-1 {
+        width: auto;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .text-section ul {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .order-food ul{ width: 100%;
+    flex-direction: row;}
+
+    .box-2 {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box-3 {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box-3 .text {
+        width: 100%;
+        height: auto;
+    }
+
+    .mobile {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .mobile-1 {
+        width: 50%;
+        height: 500px;
+        margin-left: 150px;
+    }
+
+    .mobile-2 {
+        width: 50%;
+        height: auto;
+        margin-left: 150px;
+    }
+
+    .box-4 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 99px;
+    }
+
+    .box-4 .company {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-4 .contect {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-4 .legal {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-4 .ABC {
+        width: 100%;
+        height: auto;
+    }
+
+    .city {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .city .city-1 {
+        width: 100%;
+        height: auto;
+        padding-left: 60px;
+    }
+
+    .city .city-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .city .city-3 {
+        width: 100%;
+        height: auto;
+    }
+    .city .city-4{ width: 100%;
+        height: auto; }
+
+}
